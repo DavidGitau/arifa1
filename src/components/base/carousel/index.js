@@ -1,3 +1,4 @@
+// import { Modal } from '../modal';
 import React from 'react'
 import { Link } from "react-router-dom";
 
@@ -12,8 +13,10 @@ const Carousel = () => {
                             <div class="p-3" style={{maxWidth: "700px"}}>
                                 <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Arifa Africa</h6>
                                 <h1 class="display-3 text-white mb-4 animated slideInDown">Unleashing Africa's potential through Tech skills</h1>
-                                <Link to="/" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Sign In</Link>
-                                <Link to="/" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Sign Up</Link>
+                                
+                                {/* <Modal/> */}
+                                <Link to="/login" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Sign In</Link>
+                                <Link to="/register" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Sign Up</Link>
                                 {/* <Outlet to="">Sign</Outlet> */}
                             </div>
                         </div>
@@ -24,8 +27,8 @@ const Carousel = () => {
                           <div class="p-3" style={{ maxWidth: "700px" }}>
                                 <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Arifa Africa</h6>
                                 <h1 class="display-3 text-white mb-4 animated slideInDown">Unleashing Africa's potential through Tech skills</h1>
-                                <Link to="/" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Sign In</Link>
-                                <Link to="/" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Sign Up</Link>
+                                <Link to="/login" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Sign In</Link>
+                                <Link to="/register" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Sign Up</Link>
                             </div>
                         </div>
                     </div>
@@ -41,6 +44,7 @@ const Carousel = () => {
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            
         </div>
   )
 }

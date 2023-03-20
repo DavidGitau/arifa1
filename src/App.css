@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,24 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+.reg {
+  margin-top: 9%;
+}
+.log {
+  margin-top: 5%;
+}
+.fp {
+  font-style: italic;
+}
+@media (max-width: 575px) {
+  .reg {
+      margin-top: 9%;
+    }
+  .fp {
+    font-size: small;
+    margin-top: 10px;
   }
 }

@@ -38,11 +38,11 @@ const Footer = () => {
                             </div>
                             <div class="col-md-6">
                                 <h6 class="section-title text-start text-primary text-uppercase mb-4">Services</h6>
-                                <Link class="btn btn-link" to="/">Food & Restaurant</Link>
-                                <Link class="btn btn-link" to="/">Spa & Fitness</Link>
-                                <Link class="btn btn-link" to="/">Sports & Gaming</Link>
-                                <Link class="btn btn-link" to="/">Event & Party</Link>
-                                <Link class="btn btn-link" to="/">GYM & Yoga</Link>
+                                <Link class="btn btn-link" to="/">Software Development</Link>
+                                <Link class="btn btn-link" to="/">Graphic Design</Link>
+                                <Link class="btn btn-link" to="/">IT Consulting</Link>
+                                <Link class="btn btn-link" to="/">Cloud Computing</Link>
+                                <Link class="btn btn-link" to="/">Enterprise Solutions</Link>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const Footer = () => {
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                             &copy; <Link class="border-bottom" to="/">Arifa Africa</Link>, All Right Reserved. 
 							
-							Designed By <Link class="border-bottom" to="/">Arifa</Link>
+							Designed By <Link class="border-bottom" to="/">David Gitau</Link>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">

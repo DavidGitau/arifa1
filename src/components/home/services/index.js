@@ -47,7 +47,7 @@ const Services = () => {
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Software Development</h5>
+                                    <h6 class="mb-0">Software Development</h6>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
